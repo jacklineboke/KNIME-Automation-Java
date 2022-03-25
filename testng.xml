@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestSuite" configfailurepolicy="continue">
+    <test name="Test" >
+        <parameter name="browser" value="local"/>
+        <classes>
+            <class name="SpacesTest"/>
+            <class name="APITests"></class>
+        </classes>
+    </test>
+</suite>
