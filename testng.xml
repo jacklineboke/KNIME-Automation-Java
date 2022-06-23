@@ -5,7 +5,7 @@
         <parameter name="browser" value="local"/>
         <classes>
             <class name="SpacesTest"/>
-            <class name="APITests"></class>
+            <!--class name="APITests"></class -->
         </classes>
     </test>
 </suite>
